@@ -1,0 +1,11 @@
+<% cache(@product.cache_key) do %>
+    <p id="notice"><%= notice %> </p>
+
+    <p>
+      <strong>Name:</strong>
+      <%= @product.name %>
+    </p>
+
+    <%= link_to 'Edit That', edit_product_path(@product) %> |
+    <%= link_to 'Back', products_path %>
+<% end %>

@@ -1,0 +1,3 @@
+== Fragment Caching
+
+Demonstrates the fragment caching in rails
